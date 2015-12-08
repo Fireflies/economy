@@ -1,0 +1,6 @@
+main: ninja.smirking.economy.EconomyPlugin
+version: ${project.version}
+author: SmirkingNinja
+name: Economy
+softdepend:
+- Vault
