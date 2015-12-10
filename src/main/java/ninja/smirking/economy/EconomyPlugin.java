@@ -6,15 +6,11 @@ import ninja.smirking.economy.storage.MemoryEconomyDataDao;
 import ninja.smirking.economy.storage.MysqlEconomyDataDao;
 import ninja.smirking.economy.vault.EconomyImpl;
 
-import java.security.SecureRandom;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.ServicePriority;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.scheduler.BukkitRunnable;
 
 public class EconomyPlugin extends JavaPlugin {
     public static final long SAVE_INTERVAL = Long.getLong("economy.save-interval", 600L);
